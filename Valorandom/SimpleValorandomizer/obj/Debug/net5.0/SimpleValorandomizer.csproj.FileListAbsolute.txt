@@ -1,0 +1,16 @@
+C:\Users\dshan\Desktop\Coding Practice\SimpleValorandomizer\bin\Debug\net5.0\SimpleValorandomizer.exe
+C:\Users\dshan\Desktop\Coding Practice\SimpleValorandomizer\bin\Debug\net5.0\SimpleValorandomizer.deps.json
+C:\Users\dshan\Desktop\Coding Practice\SimpleValorandomizer\bin\Debug\net5.0\SimpleValorandomizer.runtimeconfig.json
+C:\Users\dshan\Desktop\Coding Practice\SimpleValorandomizer\bin\Debug\net5.0\SimpleValorandomizer.runtimeconfig.dev.json
+C:\Users\dshan\Desktop\Coding Practice\SimpleValorandomizer\bin\Debug\net5.0\SimpleValorandomizer.dll
+C:\Users\dshan\Desktop\Coding Practice\SimpleValorandomizer\bin\Debug\net5.0\ref\SimpleValorandomizer.dll
+C:\Users\dshan\Desktop\Coding Practice\SimpleValorandomizer\bin\Debug\net5.0\SimpleValorandomizer.pdb
+C:\Users\dshan\Desktop\Coding Practice\SimpleValorandomizer\obj\Debug\net5.0\SimpleValorandomizer.csproj.AssemblyReference.cache
+C:\Users\dshan\Desktop\Coding Practice\SimpleValorandomizer\obj\Debug\net5.0\SimpleValorandomizer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dshan\Desktop\Coding Practice\SimpleValorandomizer\obj\Debug\net5.0\SimpleValorandomizer.AssemblyInfoInputs.cache
+C:\Users\dshan\Desktop\Coding Practice\SimpleValorandomizer\obj\Debug\net5.0\SimpleValorandomizer.AssemblyInfo.cs
+C:\Users\dshan\Desktop\Coding Practice\SimpleValorandomizer\obj\Debug\net5.0\SimpleValorandomizer.csproj.CoreCompileInputs.cache
+C:\Users\dshan\Desktop\Coding Practice\SimpleValorandomizer\obj\Debug\net5.0\SimpleValorandomizer.dll
+C:\Users\dshan\Desktop\Coding Practice\SimpleValorandomizer\obj\Debug\net5.0\ref\SimpleValorandomizer.dll
+C:\Users\dshan\Desktop\Coding Practice\SimpleValorandomizer\obj\Debug\net5.0\SimpleValorandomizer.pdb
+C:\Users\dshan\Desktop\Coding Practice\SimpleValorandomizer\obj\Debug\net5.0\SimpleValorandomizer.genruntimeconfig.cache
