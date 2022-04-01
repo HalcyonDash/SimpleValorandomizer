@@ -8,10 +8,9 @@ namespace SimpleValorandomizer
         static void Main(string[] args)
         {
             bool quit = false;
-            int r;
             string[] agentArray = new string[] {"Astra", "Breach", "Brimstone", "Chamber", "Cypher", "Jett", "KAY/O", "Killjoy", "Neon", "Omen",
                 "Phoenix", "Raze", "Reyna", "Sage", "Skye", "Sova", "Viper", "Yoru"};
-            string[] playerAgents = new string[5];
+            List<string> agentList = new List<string>();
             Random numberGen = new Random();
             
             while (quit == false)
@@ -25,19 +24,16 @@ namespace SimpleValorandomizer
 
             void agentRoller()
             {
-                List<string> agentList = new List<string>();
-
                 for (int i = 0; i < agentArray.Length; i++)
                 {
-                    agentList.Add(agentArray[i]);
+                    agentList.Add(agentArray[i]); //Converts agentArray into agentList
                 }
                 
                 for (int i = 0; i < 5; i++)
                 {
-                    r = numberGen.Next(0, agentList.Count);
-                    Console.WriteLine("Player " + (i + 1) + ": " + agentList[r]);
-                    agentList.RemoveAt(r);
-                    
+                    int r = numberGen.Next(0, agentList.Count); //Rolls random number between 0 and length of agentList
+                    Console.WriteLine("Player " + (i + 1) + ": " + agentList[r]); //Assigns player to character in the r position of agentList
+                    agentList.RemoveAt(r); //Removes the chosen agent so it can't be picked twice, also makes list shorter
                 }
             } 
         }
