@@ -1,0 +1,45 @@
+using System;
+using System.Collections.Generic;
+
+namespace SimpleValorandomizer
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            bool quit = false;
+            int r;
+            string[] agentArray = new string[] {"Astra", "Breach", "Brimstone", "Chamber", "Cypher", "Jett", "KAY/O", "Killjoy", "Neon", "Omen",
+                "Phoenix", "Raze", "Reyna", "Sage", "Skye", "Sova", "Viper", "Yoru"};
+            string[] playerAgents = new string[5];
+            Random numberGen = new Random();
+            
+            while (quit == false)
+            {
+                Console.WriteLine("Your Team:");
+                agentRoller();
+                Console.WriteLine("Reroll? [y/n]");
+                quit = Console.ReadKey().Key == ConsoleKey.N;
+                Console.Clear();
+            }
+
+            void agentRoller()
+            {
+                List<string> agentList = new List<string>();
+
+                for (int i = 0; i < agentArray.Length; i++)
+                {
+                    agentList.Add(agentArray[i]);
+                }
+                
+                for (int i = 0; i < 5; i++)
+                {
+                    r = numberGen.Next(0, agentList.Count);
+                    Console.WriteLine("Player " + (i + 1) + ": " + agentList[r]);
+                    agentList.RemoveAt(r);
+                    
+                }
+            } 
+        }
+    }
+}
